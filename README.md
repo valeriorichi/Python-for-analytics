@@ -1,26 +1,65 @@
-# QQQ
-Python is a popular programming language for various data analytics tasks, thanks to its extensive libraries and tools for data manipulation, analysis, and visualization. Here are some key libraries and tools commonly used for analytics in Python:
+# Data Analytics with Python
 
-NumPy: NumPy is a fundamental library for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+This repository contains Python code for performing data analytics using various libraries. The analysis includes fetching data, data preparation, visualization, and comparisons of job vacancies in different cities of Ukraine.
 
-pandas: pandas is a powerful library for data manipulation and analysis. It offers data structures like DataFrames and Series, which make it easy to handle and analyze tabular data.
+## Getting Started
 
-Matplotlib: Matplotlib is a widely-used library for creating static, animated, and interactive visualizations in Python. It provides a flexible and customizable way to visualize data.
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-Seaborn: Seaborn is built on top of Matplotlib and provides a high-level interface for creating attractive and informative statistical graphics. It simplifies many common data visualization tasks.
+1. Clone the repository to your local machine:
 
-SciPy: SciPy is a library that builds on NumPy and provides additional functionality for scientific and technical computing. It includes optimization, integration, interpolation, and more.
+git clone https://github.com/valeriorichi/Python-for-analytics.git
 
-Scikit-Learn: Scikit-Learn is a machine learning library that offers a wide range of tools for data analysis, including classification, regression, clustering, dimensionality reduction, and model evaluation.
 
-Statsmodels: Statsmodels is a library for estimating and interpreting various statistical models. It is particularly useful for tasks like linear regression, time series analysis, and hypothesis testing.
+2. Install the required Python libraries if you haven't already. You can use `pip`:
 
-Jupyter Notebook: Jupyter Notebook is an interactive development environment that allows you to create and share documents containing live code, equations, visualizations, and narrative text. It's widely used in data analysis and research.
+pip install requests pandas numpy matplotlib
 
-Pandas Profiling: Pandas Profiling is a tool for automatically generating a report with statistics and visualizations from a pandas DataFrame. It's helpful for quickly understanding the characteristics of a dataset.
 
-SQLAlchemy: SQLAlchemy is a SQL toolkit and Object-Relational Mapping (ORM) library for Python. It's used for database interaction and querying within Python applications.
 
-Bokeh and Plotly: These libraries are used for creating interactive, web-based visualizations. They are well-suited for building dashboards and data-driven web applications.
+3. Run the Python scripts to perform the analysis. Each script corresponds to a specific task, such as fetching data, data preparation, and plotting.
 
-To get started with Python for analytics, you can install these libraries using Python package managers like pip or conda. Additionally, you may want to explore online courses, tutorials, and documentation to learn how to use these tools effectively for your specific analytics tasks.
+## Data Sources
+
+The data used in this analysis is retrieved from the following source:
+- [UaData.net](https://uadata.net/work-positions/cities.json)
+
+## Code Structure
+
+- `fetch_data.py`: Fetches job vacancy data from the data source and stores it in a DataFrame.
+- `data_preparation.py`: Prepares the data for analysis, including data cleaning and interpolation.
+- `plotting.py`: Generates various plots to visualize job vacancy trends.
+
+## Analysis
+
+### Job Vacancy Trends in Ukraine
+
+![Vacancy Trends in Ukraine](link_to_your_image.png)
+
+This plot shows the trend of job vacancies in Ukraine over time. It includes data cleaning and interpolation to handle missing values.
+
+### Job Vacancy Trends in Different Cities
+
+![Vacancy Trends in Odessa and Lviv](link_to_your_image.png)
+
+This plot compares job vacancy trends in Odessa and Lviv, highlighting the 7-day rolling average.
+
+### Homework: Job Vacancy Trends in Ternopil and Lviv
+
+![Vacancy Trends in Ternopil and Lviv](link_to_your_image.png)
+
+This plot compares job vacancy trends in Ternopil and Lviv, highlighting the 7-day rolling average. (Add this section if you want to include the additional analysis)
+
+## Authors
+
+- Valeriy Yuriy
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Mention any acknowledgments or data sources here.
+
+Feel free to enhance this README with additional sections, explanations, or images to provide a comprehensive overview of your project. Make sure to replace placeholders like `your-username` and `your-repository` with your actual GitHub username and repository name.
