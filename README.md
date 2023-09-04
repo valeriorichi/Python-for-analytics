@@ -34,13 +34,13 @@ The data used in this analysis is retrieved from the following source:
 
 ### Job Vacancy Trends in Ukraine
 
-![Vacancy Trends in Ukraine](link_to_your_image.png)
+![Vacancy Trends in Ukraine](Screenshot_48.png)
 
 This plot shows the trend of job vacancies in Ukraine over time. It includes data cleaning and interpolation to handle missing values.
 
 ### Job Vacancy Trends in Different Cities
 
-![Vacancy Trends in Odessa and Lviv](link_to_your_image.png)
+![Vacancy Trends in Odessa and Lviv](Screenshot_49.png)
 
 This plot compares job vacancy trends in Odessa and Lviv, highlighting the 7-day rolling average.
 
