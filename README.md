@@ -46,7 +46,7 @@ This plot compares job vacancy trends in Odessa and Lviv, highlighting the 7-day
 
 ### Homework: Job Vacancy Trends in Ternopil and Lviv
 
-![Vacancy Trends in Ternopil and Lviv](link_to_your_image.png)
+![Vacancy Trends in Ternopil and Lviv](Screenshot_50.png)
 
 This plot compares job vacancy trends in Ternopil and Lviv, highlighting the 7-day rolling average. (Add this section if you want to include the additional analysis)
 
